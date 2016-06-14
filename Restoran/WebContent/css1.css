@@ -1,0 +1,82 @@
+body{
+}
+
+input.centar{
+	position:center;
+	font-family:Arial;
+	font-size:25px;
+	border: 1px solid black
+}
+
+input.dugmad{
+	font-family:Arial;
+	font-size:25px;
+}
+
+input.dugme{
+	font-family:Arial;
+	font-size:18px;
+}
+
+.prvo{
+	border:3px solid black;
+	list-style-type: none;
+	font-family:Arial;
+	font-size:15px;
+	text-align: center;
+    padding-bottom:45px;
+}
+
+.drugo{
+	font-family:Arial;
+	font-size:20px;
+	margin-top:-250px;
+	margin-left:380px;
+}
+
+.trece{
+	font-family:Arial;
+	font-size:20px;
+	margin-top:150px;
+
+}
+
+.tabela{
+	padding:5px;
+}
+
+.tabela2{
+	border:3px solid black;
+}
+
+.aha{
+	border:1px solid black;
+}
+
+
+li a:last-child {
+    border-right: none;
+    border-left:3px solid black
+}
+
+li {
+	margin-left:-43px;
+}
+
+li a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: green;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+

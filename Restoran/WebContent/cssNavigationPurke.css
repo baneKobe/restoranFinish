@@ -1,0 +1,158 @@
+img.banner{
+	width: 100%;
+	border: 2px solid #E3E3E3;
+	height: 200px
+}
+
+nav.navigation1{
+	width: 100%;
+	height: 50px;
+	border: 2px solid #E3E3E3;
+	margin-top: 0px;
+	text-shadow: 0.1m 0.1m #333;
+	background-color: gray;
+}
+ul.navlista1{
+	margin: 0;
+	padding: 0;
+	width: auto;
+	list-style: none
+}
+li.navitem1{
+	font-size: 24px;
+	float: left;
+	width: 150px;
+	height: 40px;
+	display: inline;
+	margin: 10px;
+	margin-left: 20px
+}
+a.navtekst1{
+	color: black;
+	text-decoration: none
+}
+a.navtekst1:hover{
+	color: red
+}
+ul.dropdown1{
+        min-width: 150px; /* Set width of the dropdown */
+        background: #f2f2f2;
+        display: none;
+        position: absolute;
+		background-image: url(navigation.jpg);
+		margin-top:12px;
+		margin-right: 250px
+    }
+li:hover ul.dropdown1{
+	display: block;	/* Display the dropdown */
+        }
+ul li ul.dropdown1 li{
+	display: block;
+	margin-right:50px
+    }
+p.hometekst{
+	font-size: 0.8em;
+	line-height: 1.28;
+	font-family: verdana;
+	color: black
+}
+li.tekst1{
+	font-size: 0.8em;
+	line-height: 1.28;
+	font-family: verdana;
+	color: black
+}
+ul.vertikal1{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    background-color: #f1f1f1;
+	position: center
+}
+li.vert1{
+	display:block;
+	color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+	float: center;
+	font-size: 30px;
+	position: center;
+	width: 383px
+}
+li.vert:hover1{
+	background-color: #555;
+    color: white;
+}
+a.verttekst1{
+	text-decoration: none
+}
+body {
+	background-color: #c2d6d6
+}
+table.tabela{
+	width: 500px;
+	border: 1px solid #202d2d;
+	background-color: #e1eaea;
+	float: left;
+	margin-top: 20px
+}
+table.tabelareg{
+	width: 500px;
+	border: 1px solid #202d2d;
+	background-color: #e1eaea;
+	float: right;
+}
+th.zaglavlje{
+	font-family: Arial;
+	font-size: 30px
+}
+tr.red{
+	height:35px;
+}
+td.polje{
+	width: 100%;
+	font-size: 20px;
+	font-family: Arial
+}
+td input.unos{
+	width:250px;
+	font-family:Arial;
+	font-size: 20px
+}
+td input.dugme{
+	width: 200px;
+	font-size:20px;
+	font-family:Arial;
+	margin-left: 150px
+}
+
+table.artikal{
+    width: 750px;
+    height: 250px;
+    margin: 10px 0 10px 0;
+    border: 3px solid black;
+    border-radius: 10px;
+    moz-border-radius : 10px;
+}
+.artikal tr th .artikal tr td
+{
+    text-align: left;
+    padding: 0px 5px 0 5px;
+}
+.artikal img
+{
+    padding: 0px 10px 10px 10px;
+}
+input.dugmic{
+	width:100px;
+	font-family:Arial;
+	font-size:15px;
+	
+}
+input.broj{
+	width:100px;
+	font-family:Arial;
+	font-size:15px;
+}
+

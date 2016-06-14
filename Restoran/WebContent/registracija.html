@@ -1,0 +1,36 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<link rel="stylesheet"  href="css.css" />
+<link rel="stylesheet"  href="cssfajl.css" />
+</head>	
+<body>
+<br>
+<br>
+<br>
+<br>
+<div class="field">
+<h1>Registracija korisnika</h1>
+<br>
+<br>
+<form action="Registracija">
+  <input type="text" name="username" title="Korisničko ime ne može da bude prazno i može da sadrži samo slova, brojeve i donju crtu." placeholder="Ime" required pattern="\w+" class="centar"><br>
+  <br>
+  <input type="text" name="prezime" title="Prezime može da sadrži samo slova." placeholder="Prezime" required pattern="[a-zA-Z]+" class="centar"><br>
+  <br>
+  <input type="email" name="email" title="Primer: characters@characters.domain" placeholder="Email adresa" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" class="centar"><br>
+  <br>
+  <input title="Lozinka mora da sadrži najmanje 6 karaktera uključujući VELIKO/malo slovo i broj." type="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" name="lozinka" placeholder="lozinka" class="centar"><br>
+  <br>
+  <input title="Molimo vas unesite istu lozinku." type="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" name="lozinka2" placeholder="lozinka" class="centar"></p>
+  <br>
+  <input type="submit" value="Registruj se" class="centar">
+<form action="login.html">
+    <input type=button value="Nazad" onclick="location.href='login.html';" class="dugmad">
+</form>
+
+</form>
+</div>
+</body>
+</html>
+

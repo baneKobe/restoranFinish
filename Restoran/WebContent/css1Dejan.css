@@ -1,0 +1,234 @@
+body{
+}
+
+input.centar{
+	position:center;
+	font-family:Arial;
+	font-size:25px;
+	border: 1px solid black
+}
+
+input.dugmad{
+	font-family:Arial;
+	font-size:25px;
+}
+input.nesto{
+	font-family:Arial;
+	font-size:25px;
+	margin-left:50px;
+}
+
+input.dugme{
+	font-family:Arial;
+	font-size:18px;
+}
+
+.prvo{
+	border:3px solid black;
+	list-style-type: none;
+	font-family:Arial;
+	font-size:15px;
+	text-align: center;
+    padding-bottom:45px;
+}
+
+.drugo{
+	font-family:Arial;
+	font-size:20px;
+	margin-top:-250px;
+	margin-left:380px;
+}
+
+.trece{
+	font-family:Arial;
+	font-size:20px;
+	margin-top:150px;
+}
+
+.cetvrto{
+	font-family:Arial;
+	font-size:20px;
+}
+.peto{
+	margin-top:59px;
+}
+.sesto{
+	font-family:Arial;
+	font-size:20px;
+	margin-left:500px;
+	margin-top:-500px;
+}
+.sedmo{
+	font-family:Arial;
+	font-size:20px;
+	margin-left:500px;
+}
+
+.tabela{
+	padding:5px;
+}
+
+.tabela2{
+	border:3px solid black;
+}
+
+.tabela3{
+	padding:20px;
+}
+
+.tabela4{
+	border:3px solid black;
+	padding:20px 20px 20px 20px;
+}
+.tabela5{
+	margin-left:500px;
+	border:3px solid black;
+}
+
+.aha{
+	border:1px solid black;
+}
+.aha2{
+	border:1px solid black;
+	padding-right:50px;
+}
+
+
+li a:last-child {
+    border-right: none;
+    border-left:3px solid black
+}
+
+li {
+	margin-left:-43px;
+}
+
+li a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: green;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.desno {
+    margin-left:10px;
+}
+.dodatak{
+   	text-align:right;
+}
+.proba{
+   	padding-right:200px;
+   	padding-bottom:100px;
+}
+p{
+   	font-family:Arial;
+	font-size:20px;
+}
+
+.img{
+   	width:300px;
+   	heihgt:300px;
+   	font-family:Arial;
+	font-size:18px;
+}
+
+
+
+
+
+
+form .stars {
+  background: gray;
+  width: 150px;
+  margin-top:-45px;
+  margin-left:180px;
+
+}
+
+form .stars input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+form .stars input[type="radio"].star-5:checked ~ span {
+  width: 100%;
+  background:#66FF00;
+}
+form .stars input[type="radio"].star-4:checked ~ span {
+  width: 80%;
+  background: #CCFF00;
+}
+form .stars input[type="radio"].star-3:checked ~ span {
+  width: 60%;
+  background: #FFFF00;
+}
+form .stars input[type="radio"].star-2:checked ~ span {
+  width: 40%;
+  background: #FFCC00;
+}
+form .stars input[type="radio"].star-1:checked ~ span {
+  width: 20%;
+  background: #FF6600;
+}
+form .stars label {
+  display: block;
+  width: 28px;
+  height: 28px;
+  border: 1px solid black;
+  margin: 0!important;
+  padding: 0!important;
+  text-indent: -999em;
+  float: left;
+  position: relative;
+  z-index: 10;
+  background: transparent!important;
+  cursor: pointer;
+}
+form .stars label:hover ~ span {
+  background-position: 0 -30px;
+}
+form .stars label.star-5:hover ~ span {
+  width: 100% !important;
+  background:#66FF00;
+}
+form .stars label.star-4:hover ~ span {
+  width: 80% !important;
+  background: #CCFF00;
+}
+form .stars label.star-3:hover ~ span {
+  width: 60% !important;
+  background: #FFFF00;
+}
+form .stars label.star-2:hover ~ span {
+  width: 40% !important;
+  background: #FFCC00;
+}
+form .stars label.star-1:hover ~ span {
+  width: 20% !important;
+  background: #FF6600;
+}
+form .stars span {
+  display: block;
+  width: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 30px;
+  background: red;
+  filter: alpha(opacity=0);
+  -webkit-transition: -webkit-width 0.5s;
+  -moz-transition: -moz-width 0.5s;
+  -ms-transition: -ms-width 0.5s;
+  -o-transition: -o-width 0.5s;
+  transition: width 0.5s;
+}
